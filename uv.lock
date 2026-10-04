@@ -13,23 +13,27 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "gitsource" },
+    { name = "jaxn" },
     { name = "jupyter" },
     { name = "minsearch" },
     { name = "openai" },
     { name = "python-dotenv" },
     { name = "python-frontmatter" },
     { name = "requests" },
+    { name = "wget" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "gitsource", specifier = ">=0.0.5" },
+    { name = "jaxn", specifier = ">=0.0.5" },
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "minsearch", specifier = ">=0.2.0" },
     { name = "openai", specifier = ">=3.19.2" },
     { name = "python-dotenv", specifier = ">=1.2.3" },
     { name = "python-frontmatter", specifier = ">=1.3.0" },
     { name = "requests", specifier = ">=2.34.2" },
+    { name = "wget", specifier = ">=3.2" },
 ]
 
 [[package]]
@@ -618,6 +622,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/7c/1a/3c8edc664e06e6bd06cce40c6b22da5f1429aa4224d0c590f3be21c91ead/isoduration-20.11.0.tar.gz", hash = "sha256:ac2f9015137935279eac671f94f89eb00584f940f5dc49462a0c4ee692ba1bd9", size = 11649, upload-time = "2020-11-01T11:00:00.312Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/7b/55/e5326141505c5d5e34c5e0935d2908a74e4561eca44108fbfb9c13d2911a/isoduration-20.11.0-py3-none-any.whl", hash = "sha256:b2904c2a4228c3d44f409c8ae8e2370eb21a26f7ac2ec5446df141dde3452042", size = 11321, upload-time = "2020-11-01T10:59:58.02Z" },
+]
+
+[[package]]
+name = "jaxn"
+version = "0.0.5"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/86/61/580621525bd1035ecaf20b56a3f215142758d5079f7e5695905ecfc4a30e/jaxn-0.0.5.tar.gz", hash = "sha256:c896d88023c5f6af9b650587b370528f8aae567874031bf4769a3fe58e1749d2", size = 79575, upload-time = "2026-02-19T12:53:02.288Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/5c/3f/48e405eca9e810d1f3101fede5f44f52613cb44d48593b2ca497514ab788/jaxn-0.0.5-py3-none-any.whl", hash = "sha256:477ccc282260e235f26fd2c88eb6a4899f0a15d95bcb71b669fb273093660a57", size = 13392, upload-time = "2026-02-19T12:53:00.586Z" },
 ]
 
 [[package]]
@@ -2036,6 +2049,12 @@ sdist = { url = "https://files.pythonhosted.org/packages/d8/cb/a5abcc2891249f393
 wheels = [
     { url = "https://files.pythonhosted.org/packages/d5/d2/cc4dc1271e464942db7ee278baae2daa99ee77cb2af744025c04da585a3e/websocket_client-1.9.2-py3-none-any.whl", hash = "sha256:e1a673830a9c7bfa47b1cd3d5e4178f4c9651d80a4eab02c9c23a1c3ec6250ce", size = 95786, upload-time = "2026-08-31T14:08:39.899Z" },
 ]
+
+[[package]]
+name = "wget"
+version = "3.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/47/6a/62e288da7bcda82b935ff0c6cfe542970f04e29c756b0e147251b2fb251f/wget-3.2.zip", hash = "sha256:35e630eca2aa50ce998b9b1a127bb26b30dfee573702782aa982f875e3f16061", size = 10857, upload-time = "2015-10-22T15:26:37.51Z" }
 
 [[package]]
 name = "widgetsnbextension"
